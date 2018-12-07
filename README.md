@@ -17,7 +17,7 @@ tcpserver.py
 udpclient.py   
 udpserver.py   
    
-#C/C++测试程序   
+#C/C++测试程序(linux下)   
 nodetree.c    //构造用户目录树，当时用于测试moosefs在不经过fuse无读写的情况下,mfsmaster所能达到的最大并发，经测试约为6万   
 readerd.cpp   //在后台运行并统计读写指定文件的耗时(当时用于测试arm平台下moosefs客户端的读写速度)   
 tcp_client.cpp  //tcp客户端示例代码  
@@ -25,3 +25,4 @@ tcp_server.cpp  //tcp服务端epoll示例代码
 udp_client.cpp  //udp客户端示例代码  
 udp_server.cpp  //udp服务端示例代码  
 udp_transmit.cpp //udp转发示例代码  
+inotify.cpp      //检测目录内文件是否发生读写等事件  
